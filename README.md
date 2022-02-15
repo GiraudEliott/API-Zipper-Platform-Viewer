@@ -1,4 +1,5 @@
 # API-Zipper-Platform-Viewer
 Zipper Platform Viewer API
 
-Yarn start 
+Yarn (node_modules)
+Yarn start
