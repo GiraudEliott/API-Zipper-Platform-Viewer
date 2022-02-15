@@ -1,0 +1,110 @@
+body {
+	list-style: none;
+	background-color: #dedee2;
+	background-image: url(fondpoint-02.svg) ;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+
+
+@font-face {
+    font-family: 'monument';
+    src: url('/font/monument-extended-webfont.woff2') format('woff2'),
+         url('/font/monument-extended-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'messapia';
+    src: url('/font/messapia-bold.woff2') format('woff2'),
+         url('/font/messapia-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/* LOGO NAVBAR ________________________________ */
+
+.navbarlogo {
+	height: 50pt;
+	width: 300pt;
+	border-radius: 10pt;
+	margin-left: 20pt;
+	position: fixed;
+	z-index: 19;
+
+
+}
+
+
+
+.navbarlogo p {
+	font-size: 13pt;
+	top: 75pt;
+	left: 33pt;
+	z-index: 30;
+	position: fixed;
+	font-family: messapia;
+	color: white;
+}
+
+
+
+.logo {
+	opacity: 100%;
+	width: 430pt;
+	top: 0pt;
+	left: 0pt;
+	position: fixed;
+	padding-left: 0pt;
+	padding-bottom: 0pt;
+	padding-right: 10pt;
+	border-bottom-right-radius: 40pt; 
+	border-right: solid #242526 1pt;
+	border-bottom: solid #242526 1pt;
+	backdrop-filter: blur(8px);
+	
+	
+}
+
+.mention2 a {
+	
+	padding-right: 300pt;
+	padding-top: 10pt;
+	padding-bottom: 11pt;
+	padding-left: 10pt;
+	margin-left: -2pt;
+	text-decoration: none;
+	color: inherit; 
+
+
+}
+
+.onglett1 
+{
+	font-family: monument;
+	display: block;
+	cursor: pointer;
+	color: #242526;
+	font-size: 13pt;
+	position: relative;
+
+	overflow: hidden;
+	padding-bottom: 7.37pt;
+	padding-right: 100pt;
+	z-index: 20;
+	transition: 0.2s;
+	
+}
+
+.onglett1 :hover {
+	background-color: grey;
+	
+	padding-right: 300pt;
+
+}
